@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: rgb(193, 195, 96);
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.delete:nth-of-type(odd) {
+    background-color: darkgray;
+}
+
+/* Add spacing between the li text and the delete button */
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+li button {
+    margin-left: 20px;
+}
